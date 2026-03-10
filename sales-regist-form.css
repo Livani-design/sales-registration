@@ -1,0 +1,116 @@
+body{
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-weight: 900;
+    padding: 6px;
+}
+p{
+    margin-left: 10px;
+    font-size: 21px;
+    color: black;
+    font-weight: 900;
+    font-style: italic;
+    padding: 6px;
+}
+legend{
+    font-size: 22px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+#form{
+    background-color: teal;
+    margin: auto 40px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    width: 900px;
+    height: 700px;
+}
+.sales-date{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+.sales-date .sales-class{
+flex-direction: column;
+}
+h2{
+    color: black;
+    padding: 6px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+}
+.customer-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.customer-details .full-name{
+    width: 100px;
+}
+h3{
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-weight: 900;
+}
+.item-list{
+display: flex;
+flex-direction: row;
+}
+.item-list .product-id{
+    flex-direction: column;
+    margin-right: 50px;
+}
+.item-list .quantity-class{
+    flex-direction: column;
+    margin-right: 30px;
+}
+.item-list .unit-price{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.buttons{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+
+}
+.buttons .button-cancel{
+    color: blue;
+    border: none;
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+
+}
+.buttons .button-cancel:hover{
+background-color: red;
+}
+.buttons .button-submit{
+    color: white;
+    border: none;
+    background-color: blue;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+    margin-right: 30px;
+}
+.buttons .button-submit:hover{
+background-color: red;
+}
