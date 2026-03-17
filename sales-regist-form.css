@@ -49,7 +49,7 @@ h2{
     font-weight: 900;
     font-style: italic;
 }
-.customer-details{
+.customer-detail{
     display: flex;
     flex-direction: row;
     margin-left: 20px;
